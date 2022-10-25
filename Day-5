@@ -1,0 +1,22 @@
+//WAP for checking the password(9)
+#include<iostream>
+using namespace std;
+ int main()
+        {
+            int pass = 011;
+            int userpass;
+            cout<<"enter your password"<<endl;
+            cin>>userpass;
+            if (pass == userpass)
+            {
+               cout<<"कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।"<<endl;
+            }
+            else{
+            cout<<"your pass is wrong"<<endl;
+
+            }
+
+            return 0;
+        }
+
+        
