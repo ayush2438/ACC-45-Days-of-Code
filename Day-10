@@ -1,0 +1,28 @@
+//Question of codechef 
+//You have a playlist of 3 songs A,B and C, each of duration
+//exactly X minutes. You generally play these 3 songs in loop, i.e, A->B->C->A->B->C->A->…
+//In morning you head to your college that is N minutes away from your home and played your playlist on loop by the time you reach your college. How many times you have completely listened your playlist?
+//SOLUTION...
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--){
+	    int n,x,p;
+	    cin>>n>>x;
+	    p=3*x;
+	    if(n-p<0){
+	        cout<<0<<endl;
+	    }
+	    else if(n-p==0){
+	        cout<<1<<endl;
+	    }
+	    else{
+	        cout<<n/p<<endl;
+	    }
+	}
+	return 0;
+}
