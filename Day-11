@@ -1,0 +1,18 @@
+//USE if else(true or false)use float
+#include <iostream>
+using namespace std;
+
+int main() {
+	    float x,a,b,c;
+	    cin>>x;
+	    a=8+50-x;
+	    b=a/66;
+	    c=b*100;
+	    if(c>=75){
+	        cout<<"Yes"<<endl;
+	   }
+	   else{
+	        cout<<"No"<<endl;
+	        }
+	return 0;
+}
